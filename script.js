@@ -15,38 +15,38 @@ function verificar(){
             genero = 'Homem'
             if (idade >= 0 && idade < 5 ){
                 //bebe
-                img.setAttribute('src', 'bebeh.jpg')
+                img.setAttribute('src', 'imagens/bebeh.jpg')
             }else if (idade >= 5 && idade < 14){
                 //criança
-                img.setAttribute('src', 'criancah.jpg')
+                img.setAttribute('src', 'imagens/criancah.jpg')
             }else if (idade >= 14 && idade < 18){
                 //Jovem
-                img.setAttribute('src', 'jovemh.jpg')
+                img.setAttribute('src', 'imagens/jovemh.jpg')
             }else if (idade >= 18 && idade < 50){
                 //Adulto
-                img.setAttribute('src', 'adultoh.jpg')
+                img.setAttribute('src', 'imagens/adultoh.jpg')
             }else {
                 //Idoso
-                img.setAttribute('src', 'idosoh.jpg')
+                img.setAttribute('src', 'imagens/idosoh.jpg')
             }
 
         }else if(fsex[1].checked){
             genero = 'Mulher'
             if (idade >= 0 && idade < 5 ){
                 //bebe
-                img.setAttribute('src', 'bebem.jpg')
+                img.setAttribute('src', 'imagens/bebem.jpg')
             }else if (idade >= 5 && idade < 14){
                 //criança
-                img.setAttribute('src', 'criancam.jpg')
+                img.setAttribute('src', 'imagens/criancam.jpg')
             }else if (idade >= 14 && idade < 18){
                 //Jovem
-                img.setAttribute('src', 'jovemm.jpg')
+                img.setAttribute('src', 'imagens/jovemm.jpg')
             }else if (idade >= 18 && idade < 50){
                 //Adulto
-                img.setAttribute('src', 'adultom.jpg')
+                img.setAttribute('src', 'imagens/adultom.jpg')
             }else {
                 //Idoso
-                img.setAttribute('src', 'idosom.jpg')
+                img.setAttribute('src', 'imagens/idosom.jpg')
             }
         }
         
